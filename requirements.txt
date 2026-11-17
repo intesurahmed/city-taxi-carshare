@@ -1,0 +1,8 @@
+# City Taxi Carshare simulation - Python 3.10 or later
+# Install with:  pip install -r requirements.txt
+# Tested with the versions in the comments.
+
+mesa>=3.5,<4        # agents, MultiGrid, DataCollector, batch_run (tested 3.5.2)
+solara>=1.40        # web interface for app.py (tested 1.64.1)
+matplotlib>=3.8     # charts in the interface and results_figure.png (tested 3.11.2)
+pandas>=2.0         # experiment results tables and CSV files (tested 3.0.5)
